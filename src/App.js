@@ -18,6 +18,7 @@ function App() {
      <Counter/>
      <Alert/>
      <Users/>
+     <Fun/>
     </div>
   );
 }
