@@ -5,6 +5,7 @@ import Greetings from './Greetings';
 import Counter from './Counter';
 import Alert from './Alert';
 import Users from './Users';
+import Fun from './fun';
 
 function App() {
   return (
