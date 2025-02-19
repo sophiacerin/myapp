@@ -6,6 +6,7 @@ import Counter from './Counter';
 import Alert from './Alert';
 import Users from './Users';
 import Fun from './fun';
+import Todo from './Todo';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
      <Alert/>
      <Users/>
      <Fun/>
+     <Todo/>
     </div>
   );
 }
