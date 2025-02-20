@@ -7,6 +7,7 @@ import Alert from './Alert';
 import Users from './Users';
 import Fun from './fun';
 import Todo from './Todo';
+import Form from './Form';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
      <Users/>
      <Fun/>
      <Todo/>
+     <Form/>
     </div>
   );
 }
