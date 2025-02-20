@@ -9,6 +9,7 @@ import Fun from './fun';
 import Todo from './Todo';
 import Form from './Form';
 import HideSeek from './HideSeek';
+import ColorPicker from './ColorPicker';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
      <Todo/>
      <Form/>
      <HideSeek/>
+     <ColorPicker/>
     </div>
   );
 }
