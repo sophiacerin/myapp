@@ -8,6 +8,7 @@ import Users from './Users';
 import Fun from './fun';
 import Todo from './Todo';
 import Form from './Form';
+import HideSeek from './HideSeek';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
      <Fun/>
      <Todo/>
      <Form/>
+     <HideSeek/>
     </div>
   );
 }
