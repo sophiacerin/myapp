@@ -1,5 +1,5 @@
 
-// import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Crud from './Crud';
 import Hello from './Hello';
@@ -19,19 +19,30 @@ import Table from './Table';
 function App() {
   return (
     <div className="App">
-      {/* <BrowserRouter>
+      <BrowserRouter>
       <Routes>
-        <Route path ="/" element={<Login/>}/>
-        <Route path ="Table" element={<Table/>}/>
-
+        <Route path ="login" element={<Login/>}/>
+        <Route path ="table" element={<Table/>}/>
+        <Route path ="counter" element={<Counter/>}/>
+        <Route path ="alert" element={<Alert/>}/>
+        <Route path ="users" element={<Users/>}/>
+        <Route path ="fun" element={<Fun/>}/>
+        <Route path ="todo" element={<Todo/>}/>
+        <Route path ="form" element={<Form/>}/>
+        <Route path ="crud" element={<Crud/>}/>
+        <Route path ="hideseek" element={<HideSeek/>}/>
+        <Route path ="colorpicker" element={<ColorPicker/>}/>
+        <Route path ="/" element={<Hello name ='sophia'/>}/>
+        <Route path ="greetings" element={<Greetings name ='rheanna'/>}/>
+        
       </Routes>
-      </BrowserRouter> */}
-     <Hello name='sophia'/>
+      </BrowserRouter>
+     {/* <Hello name='sophia'/>
      <Hello name='rheanna'/>
-     <Hello name='raaj'/>
-     <Greetings name='sophia'/>
-     <Greetings name='rheanna'/>
-     <Counter/>
+     <Hello name='raaj'/> */}
+     {/* <Greetings name='sophia'/>
+     <Greetings name='rheanna'/> */}
+     {/* <Counter/>
      <Alert/>
      <Users/>
      <Fun/>
@@ -41,7 +52,7 @@ function App() {
      <ColorPicker/> 
      <Login/>
      <Table/>
-     <Crud/>
+     <Crud/> */}
     </div>
   );
 }
