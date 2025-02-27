@@ -1,5 +1,7 @@
 
+// import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Crud from './Crud';
 import Hello from './Hello';
 import Greetings from './Greetings';
 import Counter from './Counter';
@@ -10,10 +12,20 @@ import Todo from './Todo';
 import Form from './Form';
 import HideSeek from './HideSeek';
 import ColorPicker from './ColorPicker';
+import Login from './Login';
+import Table from './Table';
+
 
 function App() {
   return (
     <div className="App">
+      {/* <BrowserRouter>
+      <Routes>
+        <Route path ="/" element={<Login/>}/>
+        <Route path ="Table" element={<Table/>}/>
+
+      </Routes>
+      </BrowserRouter> */}
      <Hello name='sophia'/>
      <Hello name='rheanna'/>
      <Hello name='raaj'/>
@@ -26,7 +38,10 @@ function App() {
      <Todo/>
      <Form/>
      <HideSeek/>
-     <ColorPicker/>
+     <ColorPicker/> 
+     <Login/>
+     <Table/>
+     <Crud/>
     </div>
   );
 }
