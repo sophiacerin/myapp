@@ -14,6 +14,7 @@ import HideSeek from './HideSeek';
 import ColorPicker from './ColorPicker';
 import Login from './Login';
 import Table from './Table';
+import Map from './Map';
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
         <Route path ="colorpicker" element={<ColorPicker/>}/>
         <Route path ="/" element={<Hello name ='sophia'/>}/>
         <Route path ="greetings" element={<Greetings name ='rheanna'/>}/>
+        <Route path ="Map" element={<Map/>}/>
         
       </Routes>
       </BrowserRouter>
